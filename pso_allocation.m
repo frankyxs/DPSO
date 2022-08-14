@@ -11,7 +11,7 @@ c2 = 0.7 ;
 n = 15 ;%车位数目
 m = 10 ;%车辆数目
 load("cost.mat")
-%T = round(100* rand((m+n),2)) ;
+T = round(100* rand((m+n),2)) ;
 x = T(:,1) ;
 y = T(:,2) ;
 plot(x(1:n),y(1:n),'b*',x(n+1:n+m),y(n+1:n+m),'go')
