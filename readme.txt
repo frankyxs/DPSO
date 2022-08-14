@@ -1,3 +1,1 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-under dev master
+This file is used to describe discrete particle swarms to achieve the effect of parking space allocation
